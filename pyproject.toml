@@ -85,7 +85,7 @@ exclude = [
 namespaces = false
 
 [tool.setuptools.package-data]
-aesara = [
+"*" = [
     "*.txt",
     "*.rst",
     "*.txt",
