@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aesara"
 authors = [{name = "aesara-devs", email = "aesara.devs@gmail.com"}]
-description = "Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs."
+description = "A library for defining, optimizing, and efficiently evaluating mathematical expressions involving multi-dimensional arrays."
 license.text = "BSD-3-Clause"
 license.files = ["LICENSE.txt"]
 # # Setuptools isn't yet PEP 639 (draft) compliant.
