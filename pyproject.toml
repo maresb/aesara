@@ -262,6 +262,14 @@ ignore_errors = true
 check_untyped_defs = false
 
 [[tool.mypy.overrides]]
+module = ["aesara.tensor.rewriting.shape"]
+warn_unused_ignores = false
+
+[[tool.mypy.overrides]]
+module = ["aesara.tensor.rewriting.elemwise"]
+warn_unused_ignores = false
+
+[[tool.mypy.overrides]]
 module = ["aesara.tensor.subtensor"]
 ignore_errors = true
 check_untyped_defs = false
@@ -325,6 +333,10 @@ check_untyped_defs = false
 module = ["aesara.tensor.random.utils"]
 ignore_errors = true
 check_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = ["aesara.scan.op"]
+warn_unused_ignores = false
 
 [[tool.mypy.overrides]]
 module = ["aesara.link.numba.dispatch.extra_ops"]
