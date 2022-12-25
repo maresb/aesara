@@ -75,6 +75,7 @@ platforms = [
     "Mac OS-X",
     "Unix",
 ]
+# Not from setup.cfg
 include-package-data = false
 
 [tool.setuptools.packages.find]
@@ -82,6 +83,7 @@ exclude = [
     "tests",
     "tests.*",
 ]
+# Not from setup.cfg:
 namespaces = false
 
 [tool.setuptools.package-data]
