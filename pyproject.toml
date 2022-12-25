@@ -99,6 +99,8 @@ namespaces = false
     "*.cpp",
     "ChangeLog",
     "c_code/*",
+]
+"aesara" = [
     "py.typed",
 ]
 "aesara.misc" = ["*.sh"]
