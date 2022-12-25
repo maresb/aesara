@@ -88,8 +88,6 @@ namespaces = false
 "*" = [
     "*.txt",
     "*.rst",
-    "*.txt",
-    "*.rst",
     "*.cu",
     "*.cuh",
     "*.c",
